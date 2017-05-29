@@ -31,6 +31,7 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+
 .hero-header {
   text-align: center;
   height: 500px;
@@ -48,6 +49,7 @@ body {
     font-weight: lighter;
   }
 }
+
 
 .container {
   margin: 20px;
@@ -70,6 +72,7 @@ body {
   width: 50%;
   float: left;
 }
+
  
 /*----- Menu -----*/
   .menu {
@@ -135,6 +138,7 @@ body {
   color:#303030;
 }
 
+
 #footer {
   clear: both;
   position: relative;
@@ -152,5 +156,24 @@ body {
       list-style: none;
       display: inline;
     }
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+.menu li { 
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+.para-one{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+.para-two{
+    width: 100%;
   }
 }
